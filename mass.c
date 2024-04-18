@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void mass(); //function prototype
+
 void mass() {
     system("cls");
 

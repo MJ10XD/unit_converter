@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void volume(); //function prototype
+
 void volume() {
     system("cls");
 

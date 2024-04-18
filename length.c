@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+void length();  //function prototype
+
 void length(){
     system("cls");
 

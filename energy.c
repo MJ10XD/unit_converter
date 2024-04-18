@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void energy(); //function prototype
+
 void energy() {
     system("cls");
 
@@ -8,7 +10,7 @@ void energy() {
     long double factor[] = {1, 0.001, 0.239006, 0.000239006, 0.000277778};
 
     int from, to;
-    double energy;
+    long double energy;
 
     title();
 

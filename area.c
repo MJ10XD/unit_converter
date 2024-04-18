@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void area(); //function prototype
+
 void area() {
     system("cls");
 

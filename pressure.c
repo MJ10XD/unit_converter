@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void pressure(); //function prototype
+
 void pressure() {
     system("cls");
 

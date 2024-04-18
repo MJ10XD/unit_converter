@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void speed(); //function prototype
+
 void speed() {
     system("cls");
 

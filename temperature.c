@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//function prototypes
+void temperature();
+void c2f(double);
+void f2c(double);
+void c2k(double);
+void k2c(double);
+//====================
+
+
 void temperature() {
     system("cls");
 
@@ -54,8 +63,27 @@ void temperature() {
         printf("something went wrong . . ");
         break;
     }  
-
     
 }
 
-//under developement
+void c2f(double x){
+    double f = (x*9.0/5)+32;
+    printf("result: %lf %cF\n",f,248);
+
+}
+
+void f2c(double x){
+    double c = (x-32)*(5/9.0);
+    printf("result: %lf %cC\n",c,248);
+}
+
+void c2k(double x){
+    double k = x + 273.15;
+    printf("result: %lf K\n",k);
+
+}
+
+void k2c(double x){
+    double c = x - 273.15;
+    printf("result: %lf %cC\n",c,248);
+}
