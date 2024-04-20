@@ -9,7 +9,7 @@ This is a simple unit converter program written in C language. It allows users t
 ## requirements
 
 - terminal which support nerd fonts (windows terminal).
-- fonts [[https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip|FiraCode nerd font]]
+- fonts [FiraCode nerd font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip)
 - FiraCode font as default on terminal.
 
 ## installation
@@ -19,7 +19,7 @@ This is a simple unit converter program written in C language. It allows users t
 	 - goto "defaults"
 	 - goto "appearance"
 	 - on font face choose "FiraCode nerd font mono"
-	 - if font not installed download from [[https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip|here]]
+	 - if font not installed download from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip)
 2. open your terminal and type following commands
 		```cd Documents```
 		```git clone https://github.com/hello-manoj/unit-converter.git```
