@@ -43,7 +43,7 @@ void time() {
     // Conversion
     double convertedTime = time * (factor[to - 1] / factor[from - 1]);
 
-    printf("Result: %.6lf %s\n\n", convertedTime, units[to - 1]);
+    printf("Result: %.10f %s\n\n", convertedTime, units[to - 1]);
     hr();
 }
 

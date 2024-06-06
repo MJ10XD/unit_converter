@@ -43,7 +43,7 @@ void mass() {
     // Conversion
     double convertedMass = mass * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.6lf %s\n\n", convertedMass, units[to - 1]);
+    printf("\nResult: %.10f %s\n\n", convertedMass, units[to - 1]);
     hr();
 }
 

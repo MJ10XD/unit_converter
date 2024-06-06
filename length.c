@@ -43,7 +43,7 @@ void length(){
     //conversion
     double convertedLength = length * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nresult: %lf %s\n\n",convertedLength,units[to-1]);
+    printf("\nresult: %.10f %s\n\n",convertedLength,units[to-1]);
     hr();    //==================================
 
 }

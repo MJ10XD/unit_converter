@@ -43,7 +43,7 @@ void volume() {
     // Conversion
     double convertedVolume = volume * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.6lf %s\n\n", convertedVolume, units[to - 1]);
+    printf("\nResult: %.10f %s\n\n", convertedVolume, units[to - 1]);
     hr();
 }
 

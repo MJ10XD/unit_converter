@@ -43,7 +43,7 @@ void pressure() {
     // Conversion
     double convertedPressure = pressure * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.6lf %s\n\n", convertedPressure, units[to - 1]);
+    printf("\nResult: %.10f %s\n\n", convertedPressure, units[to - 1]);
     hr();
 }
 

@@ -43,6 +43,6 @@ void area() {
     // Conversion
     long double convertedArea = area * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.6Lf %s\n\n", convertedArea, units[to - 1]);
+    printf("\nResult: %.10f %s\n\n", convertedArea, units[to - 1]);
     hr();
 }

@@ -43,7 +43,7 @@ void energy() {
     // Conversion
     long double convertedEnergy = energy * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.6Lf %s\n\n", convertedEnergy, units[to - 1]);
+    printf("\nResult: %.10f %s\n\n", convertedEnergy, units[to - 1]);
     hr();
 }
 
