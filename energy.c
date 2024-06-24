@@ -7,10 +7,11 @@ void energy() {
     system("cls");
 
     char units[][20] = {"Joule", "Kilojoule", "Calorie", "Kilocalorie", "Watt hour"};
-    long double factor[] = {1, 0.001, 0.239006, 0.000239006, 0.000277778};
+    double factor[] = {1, 0.001, 0.239006, 0.000239006, 0.000277778};
 
     int from, to;
-    long double energy;
+    double energy;
+    double convertedEnergy;
 
     title();
 
@@ -20,11 +21,12 @@ void energy() {
     hr();
     make_unit_choice:
     printf("Enter unit to convert (from): ");
-    scanf("%d", &from);
+    scanf(" %d", &from);
     hr();
     printf("Enter unit to convert (to): ");
-    scanf("%d", &to);
+    scanf(" %d", &to);
     hr();
+
 
     // Checking unit choices
     if (from < 1 || from > 5 || to < 1 || to > 5) {
@@ -37,13 +39,13 @@ void energy() {
 
     // Taking energy input
     printf("Enter energy: ");
-    scanf("%Lf", &energy);
+    scanf(" %lf", &energy);
     hr();
 
     // Conversion
-    long double convertedEnergy = energy * (factor[to - 1] / factor[from - 1]);
+    convertedEnergy = energy * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.10f %s\n\n", convertedEnergy, units[to - 1]);
+    printf("\nResult: %.10lf %s\n\n", convertedEnergy, units[to - 1]);
     hr();
 }
 

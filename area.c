@@ -7,10 +7,11 @@ void area() {
     system("cls");
 
     char units[][20] = {"square meter", "square kilometer", "square centimeter", "square millimeter", "hectare", "acre", "square foot", "square yard", "square inch", "square mile"};
-    long double factor[] = {1, 0.000001, 10000, 1000000, 0.0001, 0.000247105, 10.7639, 1.19599, 1550.0, 0.0000003861};
+    double factor[] = {1, 0.000001, 10000, 1000000, 0.0001, 0.000247105, 10.7639, 1.19599, 1550.0, 0.0000003861};
 
     int from, to;
     double area;
+    double convertedArea;
 
     title();
 
@@ -37,12 +38,12 @@ void area() {
 
     // Taking area input
     printf("Enter area: ");
-    scanf("%Lf", &area);
+    scanf("%lf", &area);
     hr();
 
     // Conversion
-    long double convertedArea = area * (factor[to - 1] / factor[from - 1]);
+    convertedArea = area * (factor[to - 1] / factor[from - 1]);
 
-    printf("\nResult: %.10f %s\n\n", convertedArea, units[to - 1]);
+    printf("\nResult: %.10lf %s\n\n", convertedArea, units[to - 1]);
     hr();
 }
