@@ -3,7 +3,7 @@
 ___
 ## description
 
-This is a simple unit converter program written in C language. It allows users to convert between different units of measurement such as length, weight, temperature, etc.
+This is a simple unit converter program written in C language. It allows users to convert between different units of measurement quantities such as length, weight, temperature, etc.
 
 
 ## requirements
@@ -22,7 +22,7 @@ This is a simple unit converter program written in C language. It allows users t
 	 - if font not installed download from [here](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip)
 2. open your terminal and type following commands <br>
 		```cd Documents```<br>
-		```git clone https://github.com/hello-manoj/unit_converter.git```<br>
+		```git clone https://github.com/MJ10XD/unit_converter.git```<br>
 		```cd unit-converter```<br>
 		```gcc main.c -o unit_converter.exe```<br>
 3. you have successfully compiled source code.
